@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">ColetaFacilApp</string>
+    <string name="esqueceusenha">Esqueceu sua senha?</string>
+    <string name="registrese">Não possui conta ainda?</string>
+    <string name="registrar">Registar</string>
+    <string name="possuiconta">Já possui uma conta?</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
 </resources>

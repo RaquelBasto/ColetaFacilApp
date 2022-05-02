@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ColetaFacilApp">
         <activity
+            android:name=".FormCadastro"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FormLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -3,19 +3,13 @@ package br.com.coletafacilapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.ProgressBar;
 
-public class MainActivity extends AppCompatActivity {
-
-    private ProgressBar progressbar;
+public class FormLogin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_form_login);
         getSupportActionBar().hide();
     }
 }

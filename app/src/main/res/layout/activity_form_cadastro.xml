@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormCadastro">
+
+    <TextView
+        android:id="@+id/ola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Olá,"
+        android:textColor="@color/gray"
+        android:textSize="36sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/entra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:text="Crie sua conta para começar!"
+        android:textColor="@color/gray"
+        android:textSize="25sp"
+        android:textStyle="normal"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/containerComponents"
+        style="@style/ContainerComponents"
+        android:background="@drawable/container_components"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/entra"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_nome"
+        style="@style/Edit_Text"
+
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#5E040404"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintTop_toTopOf="@id/containerComponents" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        style="@style/Edit_Text"
+
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="#5E040404"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/edit_nome" />
+
+
+    <EditText
+        android:id="@+id/edit_senha"
+        style="@style/Edit_Text"
+
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="#5E040404"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/edit_email" />
+
+
+    <Spinner
+        android:id="@+id/spinner_languages"
+        style="@style/Edit_Text"
+
+        android:layout_height="60dp"
+
+
+        android:spinnerMode="dropdown"
+
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/edit_senha" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/btn_registrar"
+        style="@style/Button"
+        android:layout_marginTop="25dp"
+        android:text="@string/registrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner_languages" />
+
+
+    <TextView
+        android:id="@+id/registrese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/possuiconta"
+        android:textColor="@color/gray"
+        android:textSize="18sp"
+        android:textStyle="normal"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_registrar" />
+
+    <TextView
+        android:id="@+id/registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text=" Entrar"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_registrar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

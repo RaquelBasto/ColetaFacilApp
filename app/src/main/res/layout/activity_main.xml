@@ -4,32 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/logo"
-            android:layout_marginTop="300px"
-            android:layout_marginLeft="118px"
-            />
-
-        <ImageView
-            android:layout_width="82dp"
-            android:layout_height="75dp"
-            android:background="@drawable/loader"
-            android:layout_marginTop="200px"
-            android:layout_marginLeft="450px"
-            />
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
 
-    </LinearLayout>
+
+    <!-- app:layout_constraintTop_toBottomOf="@id/logo" -->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
