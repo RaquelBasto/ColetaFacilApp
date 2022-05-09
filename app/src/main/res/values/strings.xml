@@ -5,6 +5,13 @@
     <string name="registrar">Registar</string>
     <string name="possuiconta">Já possui uma conta?</string>
 
+
+    <array name="teams">
+        <item>Coletor</item>
+        <item>Usuario</item>
+
+    </array>
+
     <string-array name="planets_array">
         <item>Mercury</item>
         <item>Venus</item>

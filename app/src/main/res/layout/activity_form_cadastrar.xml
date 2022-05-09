@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FormCadastro">
+    tools:context=".FormCadastrar">
 
     <TextView
         android:id="@+id/ola"
@@ -84,32 +84,16 @@
         app:layout_constraintTop_toBottomOf="@id/edit_email" />
 
 
-    <com.google.android.material.textfield.TextInputLayout
+
+    <Spinner
         android:id="@+id/spinner_languages"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
-        android:layout_height="60dp"
-        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edit_senha"
+        style="@style/Edit_Text"
+        android:entries="@array/teams"
 
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/edit_text"
-        android:padding="20dp"
-
-        android:hint="Qual seu tipo de perfil?"
-        app:layout_constraintEnd_toEndOf="@id/containerComponents"
-        app:layout_constraintStart_toStartOf="@id/containerComponents"
-        app:layout_constraintTop_toBottomOf="@id/edit_senha" >
-
-        <AutoCompleteTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner"
-            android:inputType="none">
-
-        </AutoCompleteTextView>
-
-    </com.google.android.material.textfield.TextInputLayout>
-
+        />
     <androidx.appcompat.widget.AppCompatButton
 
         android:id="@+id/btn_registrar"
@@ -121,34 +105,46 @@
         app:layout_constraintTop_toBottomOf="@id/spinner_languages" />
 
 
-    <TextView
-        android:id="@+id/registrese"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:text="@string/possuiconta"
-        android:textColor="@color/gray"
-        android:textSize="18sp"
-        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@id/btn_registrar"
+        android:gravity="center_horizontal">
 
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.402"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_registrar" />
+        <TextView
+            android:id="@+id/registrese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/possuiconta"
+            android:textColor="@color/gray"
+            android:textSize="18sp"
+            android:textStyle="normal"
 
-    <TextView
-        android:id="@+id/registrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:text=" Entrar"
-        android:textColor="@color/green"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.754"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_registrar" />
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_registrar" />
+
+        <TextView
+            android:id="@+id/registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text=" Entrar"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_registrar" />
+
+
+
+
+    </LinearLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

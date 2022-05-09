@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormEsqueceuSenha">
+
+    <TextView
+        android:id="@+id/esqueceusenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Esqueceu a senha?"
+        android:textColor="@color/gray"
+        android:textSize="36sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/cadeado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/senha"
+        app:layout_constraintTop_toBottomOf="@id/esqueceusenha"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtinf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informe o e-mail associado a \nsua conta abaixo"
+        app:layout_constraintTop_toBottomOf="@id/cadeado"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edit_email"
+        style="@style/Edit_Text"
+
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="#5E040404"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtinf" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/btn_redefinirSenha"
+        style="@style/Button"
+        android:layout_marginTop="20dp"
+        android:text="Redefinir senha"
+        android:layout_width="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_email" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/btn_redefinirSenha"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/registrese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Lembrou da senha?"
+            android:textColor="@color/gray"
+            android:textSize="18sp"
+            android:textStyle="normal"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/progressbar" />
+
+
+        <TextView
+            android:id="@+id/registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text=" Login"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/progressbar" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
