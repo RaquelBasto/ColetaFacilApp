@@ -2,12 +2,16 @@ package br.com.coletafacilapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     private ProgressBar progressbar;
+    TextView login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,5 +21,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         getSupportActionBar().hide();
+
+        IniciarComponentes();
+
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, FormLogin.class);
+                startActivity(intent);
+            }
+        });
     }
+
+    private void IniciarComponentes() {
+
+        login = findViewById(R.id.login);
+
+
+    }
+
 }

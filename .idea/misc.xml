@@ -3,17 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1225" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/button.xml" value="0.2075" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/container_components.xml" value="0.15" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/edit_text.xml" value="0.1225" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_form_cadastrar.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_form_cadastro.xml" value="0.25" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_form_esqueceu_senha.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_form_login.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_form_recuperar_senha.xml" value="0.22" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/drop_down_item.xml" value="0.2" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/background.xml" value="0.1325" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_form_cadastrar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_form_esqueceu_senha.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_form_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_form_recuperar_senha.xml" value="0.18" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>

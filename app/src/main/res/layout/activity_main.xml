@@ -5,7 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/login"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Tela login"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
 
 
 
