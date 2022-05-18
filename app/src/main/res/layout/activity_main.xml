@@ -9,17 +9,18 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:background="@drawable/background"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+        android:gravity="center_vertical">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/logo"
-            android:layout_marginTop="280dp"
-            android:layout_gravity="center"
+
+
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:background="@drawable/ic_coleta"
+            android:layout_gravity="center_horizontal"
             />
         <!--        <ProgressBar-->
         <!--            android:id="@+id/progressbar"-->
@@ -33,10 +34,11 @@
         <!--            app:layout_constraintTop_toBottomOf="@id/containerComponents"-->
         <!--            />-->
 
-
-
-
     </LinearLayout>
+
+
+
+
 
 
 
