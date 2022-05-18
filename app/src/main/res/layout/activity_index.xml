@@ -120,5 +120,18 @@
             android:textColor="#FFFFFF"
             />
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMenu"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button"
+            android:text="menu"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"
+            />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
