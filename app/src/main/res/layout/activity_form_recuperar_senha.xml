@@ -26,8 +26,7 @@
         android:id="@+id/cadeado"
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:src="@drawable/celularzin"
-
+        android:src="@drawable/celular"
         app:layout_constraintTop_toBottomOf="@id/emailenviado"
         android:layout_marginTop="20dp"
         />

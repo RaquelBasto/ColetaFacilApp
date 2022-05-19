@@ -1,19 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/card_1"
-    tools:context=".HomeFragment">
+    tools:context=".fragments.HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="30sp"
-        android:textColor="@color/black"
-        android:text="@string/home"
-        android:textStyle="bold"/>
 
-</FrameLayout>
+    <View
+        android:id="@+id/containerComponents"
+        style="@style/ContainerComponents"
+        android:background="@drawable/container_components"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+
+    <ImageButton
+
+        android:id="@+id/button1"
+        style="@style/button_container"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintTop_toTopOf="@id/containerComponents"/>
+
+    <ImageView
+        style="@style/image_container"
+        app:layout_constraintStart_toStartOf="@id/button1"
+        app:layout_constraintEnd_toEndOf="@id/button1"
+        app:layout_constraintTop_toTopOf="@id/button1"
+        app:layout_constraintBottom_toBottomOf="@id/button1"
+        android:src="@drawable/ic_pessoa"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/button2"
+        style="@style/button_container"
+        android:background="@drawable/content_button"
+        android:foreground="@drawable/ic_pessoa"
+        app:cardBackgroundColor="@color/card_2"
+
+        app:cardCornerRadius="50dp"
+        app:cardElevation="2dp"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintTop_toTopOf="@id/containerComponents" />
+
+    <ImageView
+        style="@style/image_container"
+        android:src="@drawable/ic_pessoa"
+        app:layout_constraintBottom_toBottomOf="@id/button2"
+        app:layout_constraintEnd_toEndOf="@id/button2"
+        app:layout_constraintStart_toStartOf="@id/button2"
+        app:layout_constraintTop_toTopOf="@id/button2"
+        app:srcCompat="@drawable/ic_pessoa"
+        tools:srcCompat="@drawable/ic_pessoa" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        style="@style/button_container"
+
+        android:background="@drawable/content_button"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintBottom_toBottomOf="@id/containerComponents"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        style="@style/button_container"
+
+        android:background="@drawable/content_button"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintBottom_toBottomOf="@id/containerComponents"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

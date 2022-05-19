@@ -11,6 +11,11 @@ import android.view.WindowManager;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
+import br.com.coletafacilapp.fragments.HomeFragment;
+import br.com.coletafacilapp.fragments.LikeFragment;
+import br.com.coletafacilapp.fragments.SearchFragment;
+import br.com.coletafacilapp.fragments.ShopFragment;
+
 public class MenuActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;

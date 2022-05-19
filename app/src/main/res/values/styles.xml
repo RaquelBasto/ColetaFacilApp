@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="button_container">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">170dp</item>
+        <item name="android:background">@drawable/content_button</item>
+        <item name="android:drawable">@drawable/ic_pessoa</item>
 
+    </style>
+
+    <style name="image_container">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+
+    </style>
 
     <style name="ContainerComponents">
         <item name="android:layout_width">match_parent</item>
