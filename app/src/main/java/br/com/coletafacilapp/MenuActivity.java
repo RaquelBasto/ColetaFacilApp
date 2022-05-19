@@ -9,10 +9,11 @@ import android.view.MenuItem;
 import android.view.WindowManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 
 public class MenuActivity extends AppCompatActivity {
 
-    BottomNavigationView navigationView;
+    BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,35 +24,35 @@ public class MenuActivity extends AppCompatActivity {
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN); // esconde statusbar
 
-        navigationView = findViewById(R.id.bottom_navigation);
+        bottomNavigationView = findViewById(R.id.bottom_navigation);
         getSupportFragmentManager().beginTransaction().replace(R.id.body_container, new HomeFragment()).commit();
 
-        navigationView.setSelectedItemId(R.id.nav_home);
+        bottomNavigationView.setSelectedItemId(R.id.menu_home);
 
-        navigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
                 Fragment fragment = null;
                 switch (item.getItemId()){
-
-                    case R.id.nav_home:
+                    case R.id.menu_home:
                         fragment = new HomeFragment();
                         break;
 
-                    case R.id.nav_search:
+                    case R.id.menu_search:
                         fragment = new SearchFragment();
                         break;
 
-                    case R.id.nav_like:
+                    case R.id.menu_like:
                         fragment = new LikeFragment();
                         break;
 
-                    case R.id.nav_shop:
+                    case R.id.menu_shop:
                         fragment = new ShopFragment();
                         break;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.body_container, fragment).commit();
-                return false;
+                return true;
             }
         });
 
