@@ -11,8 +11,10 @@ import android.view.WindowManager;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
+import br.com.coletafacilapp.fragments.CalendarFragment;
 import br.com.coletafacilapp.fragments.HomeFragment;
 import br.com.coletafacilapp.fragments.LikeFragment;
+import br.com.coletafacilapp.fragments.NotificationFragment;
 import br.com.coletafacilapp.fragments.SearchFragment;
 import br.com.coletafacilapp.fragments.ShopFragment;
 
@@ -44,16 +46,16 @@ public class MenuActivity extends AppCompatActivity {
                         fragment = new HomeFragment();
                         break;
 
-                    case R.id.menu_search:
-                        fragment = new SearchFragment();
+                    case R.id.menu_calendar:
+                        fragment = new CalendarFragment();
                         break;
 
                     case R.id.menu_like:
                         fragment = new LikeFragment();
                         break;
 
-                    case R.id.menu_shop:
-                        fragment = new ShopFragment();
+                    case R.id.menu_notification:
+                        fragment = new NotificationFragment();
                         break;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.body_container, fragment).commit();

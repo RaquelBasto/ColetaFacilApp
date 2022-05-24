@@ -6,18 +6,18 @@
         android:title="Home"
         android:icon="@drawable/ic_home"/>
 
-    <item android:id="@+id/menu_search"
+    <item android:id="@+id/menu_calendar"
         android:enabled="true"
-        android:title="Search"
-        android:icon="@drawable/ic_search"/>
+        android:title="Calendar"
+        android:icon="@drawable/ic_calendar"/>
 
     <item android:id="@+id/menu_like"
         android:enabled="true"
         android:title="Like"
         android:icon="@drawable/ic_like"/>
 
-    <item android:id="@+id/menu_shop"
+    <item android:id="@+id/menu_notification"
         android:enabled="true"
-        android:title="Shop"
-        android:icon="@drawable/ic_shop"/>
+        android:title="Notification"
+        android:icon="@drawable/ic_notification"/>
 </menu>
