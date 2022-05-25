@@ -15,8 +15,6 @@ import br.com.coletafacilapp.fragments.CalendarFragment;
 import br.com.coletafacilapp.fragments.HomeFragment;
 import br.com.coletafacilapp.fragments.LikeFragment;
 import br.com.coletafacilapp.fragments.NotificationFragment;
-import br.com.coletafacilapp.fragments.SearchFragment;
-import br.com.coletafacilapp.fragments.ShopFragment;
 
 public class MenuActivity extends AppCompatActivity {
 

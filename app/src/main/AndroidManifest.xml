@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ColetaFacilApp">
         <activity
+            android:name=".ResgateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EcoinfoActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EcopontosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ColetoresActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivity"
             android:exported="false" />
         <activity

@@ -3,13 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/background.xml" value="0.176" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/content_button.xml" value="0.119" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/edit_text.xml" value="0.176" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/ic_calendar.xml" value="0.119" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/ic_email.xml" value="0.176" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/ic_eye.xml" value="0.176" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/ic_home.xml" value="0.176" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/ic_like.xml" value="0.119" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/ic_notification.xml" value="0.119" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/item_selector.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/round_corner.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/drawable/side_nav_bar.xml" value="0.1225" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_ecoinfo.xml" value="0.1859375" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_ecopontos.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_form_login.xml" value="0.25" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_menu.xml" value="0.15" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/activity_resgate.xml" value="0.1859375" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/drop_down_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/fragment_blank.xml" value="0.2" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/ColetaFacilApp/app/src/main/res/layout/fragment_calendar.xml" value="0.1859375" />
