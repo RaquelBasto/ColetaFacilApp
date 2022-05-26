@@ -151,6 +151,7 @@
             app:layout_constraintTop_toBottomOf="@+id/firstColumn">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/abrirEcoinfo"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
